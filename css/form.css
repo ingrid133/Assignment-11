@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #fff;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #222;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+
+label {
+    margin-right: .5em;
+    width: 6.5em;
+    display: inline-block;
+    text-align: right;
+}
+#formcol1 li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+#multchoice label {
+    width: auto;
+    text-align: left;
+}
+
+#multchoice span {
+    margin-right: 15px;
+}
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+    color: #FFF !important;
+    background-color: hotpink !important;
+}
+
+
+#formcol1 input.reqfield {
+    background: #FF9;
+}
